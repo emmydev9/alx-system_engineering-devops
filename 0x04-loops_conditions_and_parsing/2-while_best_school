@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+x=0
+while true; do
+	if [[ "$x" -gt 9 ]]; then
+		exit 1
+	fi
+	echo "Best School"
+	((x++))
+done
