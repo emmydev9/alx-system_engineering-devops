@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Bash script that print string using while loop
 x=0
 while true; do
 	if [[ "$x" -gt 9 ]]; then
