@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bash script that prints a for loop
+#Bash script that prints a for loop
 for i in {0..9};
 	do
 	echo "Best School";
