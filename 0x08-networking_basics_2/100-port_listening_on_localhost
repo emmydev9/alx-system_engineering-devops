@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# a script that listens on localhost
+
+nc -nvlp 98
+
