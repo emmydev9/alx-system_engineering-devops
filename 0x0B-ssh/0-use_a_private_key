@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A script that login into a server using ssh and private key.
+
+ssh ubuntu@44.211.83.91 -i ~/.ssh/school
