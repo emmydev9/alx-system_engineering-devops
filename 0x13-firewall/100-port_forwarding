@@ -1,0 +1,1 @@
+sudo sed -i '10 a\*nat\nPREROUTING ACCEPT [0:0]\n-A PREROUTING -p tcp -dport 8080 -j REDIRECT --to-port 80\n' /etc/ufw/before.rules
