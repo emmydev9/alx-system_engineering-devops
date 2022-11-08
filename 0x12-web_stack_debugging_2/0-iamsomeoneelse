@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A script to print the current user
+
+echo $1
