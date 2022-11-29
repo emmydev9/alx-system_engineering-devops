@@ -5,6 +5,7 @@ import requests
 
 
 def top_ten(subreddit):
+    """ Queries to reddit API"""
     h = {
         "User-Agent": "mozilla/5.0"
     }
